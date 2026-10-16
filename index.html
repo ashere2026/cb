@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashere Coffee Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h1>☕ ASHERE COFFEE</h1>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Our Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h2>Welcome to Ashere Coffee Shop</h2>
+            <p>Fresh Coffee, Happy Moments!</p>
+            <a href="#menu" class="btn">Explore Our Menu</a>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <h2>Our Coffee Menu</h2>
+        <p class="intro">Enjoy the best coffee made with love.</p>
+
+        <div class="coffee-container">
+
+            <div class="coffee-card">
+                <img
+                    src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=600&q=80"
+                    alt="Hot coffee in a cup">
+                <h3>Espresso</h3>
+                <p>Strong coffee with a rich taste.</p>
+                <h4>2,000 RWF</h4>
+                <button onclick="orderCoffee('Espresso', 2000)">
+                    Order Now
+                </button>
+            </div>
+
+            <div class="coffee-card">
+                <img
+                    src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=600&q=80"
+                    alt="Freshly prepared cappuccino">
+                <h3>Cappuccino</h3>
+                <p>Coffee with milk and creamy foam.</p>
+                <h4>3,000 RWF</h4>
+                <button onclick="orderCoffee('Cappuccino', 3000)">
+                    Order Now
+                </button>
+            </div>
+
+            <div class="coffee-card">
+                <img
+                    src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=600&q=80"
+                    alt="A cup of creamy latte">
+                <h3>Latte</h3>
+                <p>Smooth coffee blended with milk.</p>
+                <h4>3,500 RWF</h4>
+                <button onclick="orderCoffee('Latte', 3500)">
+                    Order Now
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About Ashere Coffee Shop</h2>
+        <p>
+            Ashere Coffee Shop is a friendly place where you can enjoy
+            fresh coffee, relax with friends, and make happy memories.
+            We are committed to serving delicious coffee and excellent service.
+        </p>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Visit Ashere Coffee Shop and enjoy your favorite coffee!</p>
+        <p>Email: asherecoffee@example.com</p>
+        <p>Location: Rwanda</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Ashere Coffee Shop. All rights reserved.</p>
+    </footer>
+
+    <script src="javaScript.Js"></script>
+</body>
+</html>
